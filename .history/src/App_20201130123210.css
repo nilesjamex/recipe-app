@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+  min-height: 10vh;
+  background-color: #fbf6f0;
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbf6f0;
+}
+
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button{
+  background: #aee6e6;
+  border: none;
+  padding: 10px 20px;
+  color: black;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.recipe{
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px #fbf6f0;
+  margin-top: 1 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: #fbf6f0;
+  align-items: center;
+  width: 80%;
+}
+
+/* NAV */
+
+.nav{
+  min-height: 10vh;
+  background-color: #aee6e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.a{
+  text-decoration: none;
+  color: white;
+}
+.ul{
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+.li{
+  list-style: none;
+}
+.nav-text{
+  font-family: 'Anton', sans-serif;
+  pointer-events: none;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 999px){
+  .nav-text{
+    font-size: 1rem;
+  }
+  ul{
+    width: 25%;
+  }
+}
+
